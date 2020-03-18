@@ -30,8 +30,6 @@ console.log("'text' + null: ", "text" + null);
 
 
 // Постфиксная и префиксная форма записи
-++num;
-num++;
 
 console.log("++num: ", ++num);
 console.log("num++: ", num++);
