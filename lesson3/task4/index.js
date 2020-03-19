@@ -57,4 +57,4 @@ console.log(
 console.log("!true: ", !true);
 console.log("!false: ", !false);
 console.log("!'text': ", !"text");
-console.log("!!'text: ", !!"text");
+console.log("!!'text': ", !!"text");
