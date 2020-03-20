@@ -6,4 +6,5 @@ function getSum(arr) {
   for (let num of arr) {
     sum += num;
   }
+  return sum;
 }
