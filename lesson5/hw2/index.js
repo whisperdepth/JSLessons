@@ -1,7 +1,9 @@
 function getPrimes(n) {
-  for (let i = 2; i <= n; i++) {
-    if (i % 1 === 0 && i % i === 0) {
-      console.log(i);
+  nextPrime: for (let i = 2; i <= n; i++) {
+    for (let j = 2; j < i; j++) {
+      if (i % j == 0) continue nextPrime;
     }
+
+    console.log(i);
   }
 }
