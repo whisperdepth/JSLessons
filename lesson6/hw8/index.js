@@ -24,6 +24,3 @@ function sortAsc(array) {
   return sorted;
 }
 
-let array1 = [1, 4, 4, 5, 9, 9, 2, 7, 0];
-console.log(sortAsc(array1));
-console.log(array1);
