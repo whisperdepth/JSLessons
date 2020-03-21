@@ -1,4 +1,6 @@
-function sortAsc(array) {
+function sortAsc(array){}
+
+function sortDesc(array) {
   let iterations = array.length;
   let sorted = [];
   let max = -Infinity;
@@ -24,4 +26,4 @@ function sortAsc(array) {
   return sorted;
 }
 
-function sortDesc(array){}
+
