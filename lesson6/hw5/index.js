@@ -1,5 +1,3 @@
-let arr1 = [1, 2, 10, 5];
-
 function reverseArray(arr) {
   let myArr = [];
   if (!Array.isArray(arr)) {
@@ -11,4 +9,3 @@ function reverseArray(arr) {
   return myArr;
 }
 
-console.log(reverseArray(arr1));
