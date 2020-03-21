@@ -1,4 +1,4 @@
-function increaseEven(arr, delta) {
+function increaseEvenEl(arr, delta) {
   let myArr = [];
   if (!Array.isArray) {
     return null;
