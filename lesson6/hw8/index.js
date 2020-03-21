@@ -1,4 +1,4 @@
-
+function sortAsc(array){}
 
 function sortDesc(array) {
   let iterations = array.length;
@@ -26,4 +26,4 @@ function sortDesc(array) {
   return sorted;
 }
 
-function sortAsc(array){}
+
