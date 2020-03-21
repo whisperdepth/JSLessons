@@ -1,6 +1,6 @@
 function increaseEvenEl(arr, delta) {
   let myArr = [];
-  if (!Array.isArray) {
+  if (!Array.isArray(arr) {
     return null;
   }
   for (let num of arr) {
