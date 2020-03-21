@@ -18,5 +18,9 @@ function checker(arr) {
   }
 
   let sum = max + min;
-  return sum;
+  if (sum > 1000) {
+    return true;
+  } else {
+    return false;
+  }
 }
