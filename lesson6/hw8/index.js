@@ -24,3 +24,4 @@ function sortAsc(array) {
   return sorted;
 }
 
+function sortDesc(array){}
