@@ -4,7 +4,7 @@ function increaseEven(arr, delta) {
     return null;
   }
   for (let num of arr) {
-    if (n % 2 === 0) {
+    if (num % 2 === 0) {
       myArr.push(num + delta);
     } else {
       myArr.push(num);
