@@ -1,3 +1,5 @@
+function sortAsc(array){}
+
 function sortDesc(array) {
   let iterations = array.length;
   let sorted = [];
