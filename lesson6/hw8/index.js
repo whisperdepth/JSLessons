@@ -21,8 +21,7 @@ function sortDesc(array) {
       }
     }
   }
-  array = sorted;
-  return array;
+  return sorted;
 }
 
 
