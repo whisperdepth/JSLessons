@@ -51,7 +51,8 @@ function sortAsc(array) {
         }
       }
     }
-    return sorted;
+    array.push(sorted);
+  return array;
   }
   
  
