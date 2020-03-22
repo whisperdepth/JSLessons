@@ -1,4 +1,4 @@
-function sortAsc(array) {
+function sortDesc(array) {
   let iterations = array.length;
   let sorted = [];
   let max = -Infinity;
@@ -31,7 +31,7 @@ function sortAsc(array) {
 
 
 
-function sortDesc(array) {
+function sortAsc(array) {
     let iterations = array.length;
     let sorted = [];
     let min = Infinity;
