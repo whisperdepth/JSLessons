@@ -55,7 +55,10 @@ function sortAsc(array) {
       }
     }
    
-  return sorted;
+  for (let num of sorted) {
+    array.push(num);
+  }
+  return array;
   }
   
  
