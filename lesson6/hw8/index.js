@@ -7,7 +7,7 @@ function sortDesc(array) {
   }
   for (let n = 0; n < iterations; n++) {
      for (let i = 0; i < array.length; i++) {
-      if (max < array[i]) {
+      if (max <= array[i]) {
         max = array[i];
       }
     }
@@ -37,7 +37,7 @@ function sortAsc(array) {
     }
     for (let n = 0; n < iterations; n++) {
        for (let i = 0; i < array.length; i++) {
-        if (min > array[i]) {
+        if (min >= array[i]) {
           min = array[i];
         }
       }
