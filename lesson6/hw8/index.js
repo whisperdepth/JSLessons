@@ -14,7 +14,7 @@ function sortDesc(array) {
     sorted.push(max);
     max = -Infinity;
     here: for (let i = 0; i < array.length; i++) {
-      for (j = 0; j < sorted.length; j++) {
+      for (let j = 0; j < sorted.length; j++) {
         if (array[i] === sorted[j]) {
           array.splice(i, 1); break here;
         }
@@ -45,7 +45,7 @@ function sortAsc(array) {
       sorted.push(min);
       min = Infinity;
       here: for (let i = 0; i < array.length; i++) {
-        for (j = 0; j < sorted.length; j++) {
+        for (let j = 0; j < sorted.length; j++) {
           if (array[i] === sorted[j]) {
             array.splice(i, 1); break here;
           }
