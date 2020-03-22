@@ -21,10 +21,8 @@ function sortDesc(array) {
       }
     }
   }
-  for (let num of sorted) {
-    array.push(num);
-  }
-  return array;
+ 
+  return sorted;
 }
 
 
@@ -54,11 +52,8 @@ function sortAsc(array) {
         }
       }
     }
-   
-  for (let num of sorted) {
-    array.push(num);
-  }
-  return array;
+  
+  return sorted;
   }
   
  
