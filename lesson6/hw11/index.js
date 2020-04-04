@@ -1,6 +1,7 @@
+
 function includes(numbers, n) {
-  for (let num in numbers) {
-    if (numbers[num] == n) {
+  for (let num of numbers) {
+    if (num == n) {
       return true;
     }
   }
