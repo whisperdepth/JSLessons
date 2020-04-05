@@ -1,1 +1,1 @@
-const flatArray = array => arr.reduce((acc, elem) => acc.concat(elem), []);
+const flatArray = arr => arr.reduce((acc, elem) => acc.concat(elem), []);
