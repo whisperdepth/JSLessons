@@ -1,1 +1,1 @@
-const sortArr = numbers => numbers.slice().sort((a, b) => b - a);
+const sortDesc = numbers => numbers.slice().sort((a, b) => b - a);
