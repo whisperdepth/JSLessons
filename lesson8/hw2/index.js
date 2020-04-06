@@ -11,10 +11,11 @@ user[anotherKey] = false;
 
 user["favorite music"] = "rock";
 
-user.adress = {};
+user.address = {};
 
-user.adress.country = "Ukraine";
+user.address.country = "Ukraine";
 
-user.adress.building = 17;
+user.address.building = 17;
 
 console.log(user);
+
