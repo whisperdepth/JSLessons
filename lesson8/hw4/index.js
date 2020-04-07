@@ -4,10 +4,10 @@ const addPropertyV1 = (userData, userId) => {
 };
 
 const addPropertyV2 = (userData, userId) =>
-  Object.assign(userData, userId);
+  Object.assign(userData, (userData.id = userId));
 
 const addPropertyV3 = (userData, userId) => {
-  let copy = Object.assign({}, userData, userId);
+  let copy = Object.assign(userData, (userData.id = userId));
   return copy;
 };
 
