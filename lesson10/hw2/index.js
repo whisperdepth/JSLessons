@@ -1,6 +1,4 @@
-let a = 2.14;
-let b = 7.5;
-let len = 10;
+
 
 const getRandomNumbers = (len, a, b) => {
     b = Math.floor(b);
@@ -14,5 +12,4 @@ const getRandomNumbers = (len, a, b) => {
     
 }
 
-console.log(getRandomNumbers(len, a, b));
 
