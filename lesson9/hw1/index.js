@@ -1,5 +1,10 @@
 const getCustomersList = customers => {
-  let copy = JSON.parse(JSON.stringify(customers));
+  /*let copy = JSON.parse(JSON.stringify(customers));*/
+  
+  let copy = { ...customers };
+  for (let key in copy) {
+    copy[key] = { ...customers[key] };
+  }
 
   let customersArray = Object.entries(copy);
 
