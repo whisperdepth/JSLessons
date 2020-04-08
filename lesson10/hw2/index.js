@@ -1,6 +1,8 @@
 
 
 const getRandomNumbers = (len, a, b) => {
+    if (a > b) return null;
+
     b = Math.floor(b);
     let arr = [];
 
