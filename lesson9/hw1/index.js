@@ -1,5 +1,6 @@
-const getCustomersList = (customers) => {
-  let copy = { ...customers };
+cconst getCustomersList = customers => {
+  let copy = JSON.parse(JSON.stringify(customers));
+
   let customersArray = Object.entries(copy);
 
   let customersArrayChanged = customersArray.map((customer) => {
