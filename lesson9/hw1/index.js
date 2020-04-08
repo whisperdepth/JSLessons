@@ -1,4 +1,4 @@
-cconst getCustomersList = customers => {
+const getCustomersList = customers => {
   let copy = JSON.parse(JSON.stringify(customers));
 
   let customersArray = Object.entries(copy);
