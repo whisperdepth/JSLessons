@@ -1,6 +1,4 @@
-'use strict'
 
-let text = "gegergggdgdgdgdgrergggdyhjyjyj";
 
 
 const splitString = (text, len) => {
@@ -25,6 +23,3 @@ const splitString = (text, len) => {
     }
     return strArr;
 }
-
-
-console.log(splitText(text, 4));
