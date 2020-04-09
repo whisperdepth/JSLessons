@@ -3,7 +3,7 @@
 let text = "gegergggdgdgdgdgrergggdyhjyjyj";
 
 
-const splitText = (text, len) => {
+const splitString = (text, len) => {
     if(typeof text != "string") return null;
     if (len === undefined) len = 10;
 
