@@ -1,4 +1,4 @@
-const splitText = (text, len) => {
+/*const splitText = (text, len) => {
     if(typeof text != "string") return null;
     if (len === undefined) len = 10;
     
@@ -14,4 +14,22 @@ const splitText = (text, len) => {
 
     }
     return text2;
+}*/
+
+const splitText = (text, len) => {
+    if(typeof text != "string") return null;
+    if (len === undefined) len = 10;
+
+    let strArr = [];
+    let start = 0;
+    
+    while(true){
+        let chunk = text.substr(start, len);
+        if(chunk.length === 0) break;
+
+        strArr.push(chunk[0].toUpperCase() + (chunk.slice(1)));
+        start += len;
+
+    }
+    return strArr.join('\n');
 }
