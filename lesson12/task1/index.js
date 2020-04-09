@@ -1,7 +1,5 @@
 let calc = expression => {
-    const a = expression[0];
-    const b = expression[4];
-    const act = expression[2]
+    const [a, act, b] = expression.split(' ');
 
     switch (act){
         case '+': return `${expression} = ${+a + +b}`;
