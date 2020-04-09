@@ -1,5 +1,7 @@
 const splitText = (text, len) => {
     if(typeof text != "string") return null;
+    if (len === undefined) len = 10;
+    
     let text2 = '';
     let start = 0;
     
