@@ -1,7 +1,6 @@
-const getCustomersList = customers => {
-
-  const copy = {...customers};
-  let customersArray = Object.entries(copy );
+const getCustomersList = (customers) => {
+  const copy = JSON.parse(JSON.stringify(customers));
+  let customersArray = Object.entries(copy);
 
   let customersArrayChanged = customersArray.map((customer) => {
     customer[1].id = customersArray[customersArray.indexOf(customer)][0];
@@ -12,4 +11,3 @@ const getCustomersList = customers => {
     .map((customer) => customer[1])
     .sort((a, b) => a.age - b.age);
 };
-
