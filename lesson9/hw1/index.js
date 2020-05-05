@@ -1,12 +1,6 @@
 const getCustomersList = customers => {
-  /*let copy = JSON.parse(JSON.stringify(customers));*/
-  
-  let copy = { ...customers };
-  for (let key in copy) {
-    copy[key] = { ...customers[key] };
-  }
 
-  let customersArray = Object.entries(copy);
+  let customersArray = Object.entries(customers );
 
   let customersArrayChanged = customersArray.map((customer) => {
     customer[1].id = customersArray[customersArray.indexOf(customer)][0];
